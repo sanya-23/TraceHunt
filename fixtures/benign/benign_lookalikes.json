@@ -1,0 +1,121 @@
+[
+  {
+    "EventID": 1,
+    "UtcTime": "2026-10-21 15:00:00.000",
+    "Computer": "BENIGN-HOST",
+    "ProcessId": 1100,
+    "ParentProcessId": 1000,
+    "Image": "C:\\Windows\\System32\\certutil.exe",
+    "CommandLine": "certutil.exe -dump C:\\Certs\\corp_root.cer",
+    "User": "CORP\\admin"
+  },
+  {
+    "EventID": 1,
+    "UtcTime": "2026-10-21 15:00:10.000",
+    "Computer": "BENIGN-HOST",
+    "ProcessId": 1200,
+    "ParentProcessId": 1000,
+    "Image": "C:\\Windows\\System32\\bitsadmin.exe",
+    "CommandLine": "bitsadmin.exe /list /allusers",
+    "User": "CORP\\admin"
+  },
+  {
+    "EventID": 1,
+    "UtcTime": "2026-10-21 15:00:20.000",
+    "Computer": "BENIGN-HOST",
+    "ProcessId": 1300,
+    "ParentProcessId": 1000,
+    "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "CommandLine": "powershell.exe -NoProfile -ExecutionPolicy Bypass Get-Service",
+    "User": "CORP\\alice"
+  },
+  {
+    "EventID": 1,
+    "UtcTime": "2026-10-21 15:00:30.000",
+    "Computer": "BENIGN-HOST",
+    "ProcessId": 1400,
+    "ParentProcessId": 1000,
+    "Image": "C:\\Windows\\System32\\mshta.exe",
+    "CommandLine": "mshta.exe C:\\Windows\\System32\\help.hta",
+    "User": "CORP\\alice"
+  },
+  {
+    "EventID": 1,
+    "UtcTime": "2026-10-21 15:00:40.000",
+    "Computer": "BENIGN-HOST",
+    "ProcessId": 1500,
+    "ParentProcessId": 1000,
+    "Image": "C:\\Windows\\System32\\cmd.exe",
+    "CommandLine": "cmd.exe",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "User": "CORP\\alice"
+  },
+  {
+    "EventID": 1,
+    "UtcTime": "2026-10-21 15:00:50.000",
+    "Computer": "BENIGN-HOST",
+    "ProcessId": 1600,
+    "ParentProcessId": 1550,
+    "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=renderer",
+    "ParentImage": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "User": "CORP\\alice"
+  },
+  {
+    "EventID": 1,
+    "UtcTime": "2026-10-21 15:01:00.000",
+    "Computer": "BENIGN-HOST",
+    "ProcessId": 1700,
+    "ParentProcessId": 1000,
+    "Image": "C:\\Windows\\System32\\whoami.exe",
+    "CommandLine": "whoami.exe",
+    "User": "CORP\\alice"
+  },
+  {
+    "EventID": 1,
+    "UtcTime": "2026-10-21 15:01:10.000",
+    "Computer": "BENIGN-HOST",
+    "ProcessId": 1800,
+    "ParentProcessId": 1000,
+    "Image": "C:\\Windows\\System32\\net.exe",
+    "CommandLine": "net.exe start spooler",
+    "User": "CORP\\admin"
+  },
+  {
+    "EventID": 1,
+    "UtcTime": "2026-10-21 15:01:20.000",
+    "Computer": "BENIGN-HOST",
+    "ProcessId": 1900,
+    "ParentProcessId": 1000,
+    "Image": "C:\\Windows\\System32\\reg.exe",
+    "CommandLine": "reg.exe query HKCU\\Software\\Microsoft\\Windows",
+    "User": "CORP\\alice"
+  },
+  {
+    "EventID": 1,
+    "UtcTime": "2026-10-21 15:01:30.000",
+    "Computer": "BENIGN-HOST",
+    "ProcessId": 2000,
+    "ParentProcessId": 1000,
+    "Image": "C:\\Program Files\\Notepad++\\notepad++.exe",
+    "CommandLine": "\"C:\\Program Files\\Notepad++\\notepad++.exe\" C:\\Users\\alice\\notes.txt",
+    "User": "CORP\\alice"
+  },
+  {
+    "EventID": 4625,
+    "UtcTime": "2026-10-21 10:00:00.000",
+    "Computer": "BENIGN-HOST",
+    "TargetUserName": "alice",
+    "IpAddress": "192.168.1.50"
+  },
+  {
+    "EventID": 1,
+    "UtcTime": "2026-10-21 15:02:00.000",
+    "Computer": "BENIGN-HOST",
+    "ProcessId": 2100,
+    "ParentProcessId": 1000,
+    "Image": "C:\\Windows\\System32\\calc.exe",
+    "CommandLine": "calc.exe",
+    "User": "CORP\\alice"
+  }
+]

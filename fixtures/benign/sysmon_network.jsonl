@@ -1,0 +1,2 @@
+{"EventID": 3, "UtcTime": "2026-10-21 14:05:00.000", "ProcessId": 3072, "Image": "C:\\Windows\\explorer.exe", "User": "CORP\\alice", "DestinationIp": "192.168.1.50", "DestinationPort": 445, "Computer": "WORKSTATION-01"}
+{"EventID": 5, "UtcTime": "2026-10-21 14:10:00.000", "ProcessId": 3072, "Image": "C:\\Windows\\explorer.exe", "User": "CORP\\alice", "Computer": "WORKSTATION-01"}

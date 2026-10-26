@@ -1,0 +1,6 @@
+{"EventID": 1, "UtcTime": "2026-10-21 15:00:00.000", "ProcessId": 5001, "Image": "C:\\valid.exe", "Computer": "TEST-HOST"}
+{"Malformed JSON line here
+{"EventID": 9999, "UtcTime": "2026-10-21 15:01:00.000", "ProcessId": 5002, "Computer": "TEST-HOST"}
+{"EventID": 1, "UtcTime": "invalid_timestamp", "ProcessId": 5003, "Computer": "TEST-HOST"}
+{"EventID": 1, "UtcTime": "2026-10-21 15:02:00.000", "ProcessId": "corrupt_pid", "Computer": "TEST-HOST"}
+{"EventID": 1, "UtcTime": "2026-10-21 15:03:00.000", "ProcessId": 5004, "Image": "C:\\valid2.exe", "Computer": "TEST-HOST"}

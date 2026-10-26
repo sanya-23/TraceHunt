@@ -1,0 +1,4 @@
+EventID,TimeCreated,Computer,TargetUserName,TargetDomainName,LogonType,IpAddress,IpPort,NewProcessId,CreatorProcessId,NewProcessName,CommandLine
+4624,2026-10-21T13:50:00Z,WORKSTATION-01,alice,CORP,2,10.0.0.15,54321,,,,
+4625,2026-10-21T13:51:00Z,WORKSTATION-01,baduser,CORP,3,192.168.1.100,49152,,,,
+4688,2026-10-21T13:55:00Z,WORKSTATION-01,alice,CORP,,,,0x1a4,0x3f0,C:\Windows\System32\notepad.exe,notepad.exe C:\test.txt
